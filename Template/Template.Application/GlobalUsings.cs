@@ -1,0 +1,12 @@
+﻿global using AutoMapper;
+global using FluentValidation;
+global using $safeprojectname$.Constants;
+global using $safeprojectname$.Dto;
+global using $safeprojectname$.Dto.Base;
+global using $safeprojectname$.Interfaces.Repositories;
+global using $safeprojectname$.Interfaces.Repositories.Base;
+global using $safeprojectname$.Interfaces.Services;
+global using $safeprojectname$.Interfaces.Services.Base;
+global using $safeprojectname$.Services.Base;
+global using $safeprojectname$.Validators;
+global using $ext_safeprojectname$.Model.Models;

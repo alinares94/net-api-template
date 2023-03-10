@@ -1,0 +1,1 @@
+﻿global using $ext_safeprojectname$.Application.Interfaces.External;
