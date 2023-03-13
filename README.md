@@ -13,8 +13,13 @@ When the visual studio is opened again, the new template will appear as one more
 | API | Registers the different endpoints |
 | Core.Application | Business logic |
 | Core.Model | Model that agrees with what the database will return |
-| Infrastructure | Connection to databases |
+| Infrastructure.Db | Connection to databases |
+| Infrastructure.External | Connection to external services such as Email, SMS, etc. |
 | Test | Test on the business layer |
+
+<img src="https://user-images.githubusercontent.com/54104479/224661709-7ff2e2eb-1c31-48ac-aae5-4acecbe0bbab.png" 
+     data-canonical-src="https://user-images.githubusercontent.com/54104479/224661709-7ff2e2eb-1c31-48ac-aae5-4acecbe0bbab.png" 
+     width="600" height="500"/>
 
 ### API
 
@@ -37,7 +42,7 @@ Input and output values to this application layer must be DTOs. If you want to r
 
 Definition of the database model or entities returned by database functions/procedures.
 
-### Infrastructure
+### Infrastructure.Db
 
 Connections to databases through *Contexts* and repositories. Repositories will only contain simple queries and actions on the database, they will not contain object modifications or any logic.
 
