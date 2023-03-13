@@ -8,12 +8,13 @@ When the visual studio is opened again, the new template will appear as one more
 
 ## Architecture
 
-| Proyecto          | Descripción                                                        |
+| Project          | Description                                                        |
 | ----------------- | ------------------------------------------------------------------ |
-| API | Registra los distintos endpoints |
-| Core.Application | Lógica de negocio |
-| Core.Model | Modelo que concuerda con lo que retornará la BBDD |
-| Infrastructure | Conexión a BBDD |
+| API | Registers the different endpoints |
+| Core.Application | Business logic |
+| Core.Model | Model that agrees with what the database will return |
+| Infrastructure | Connection to databases |
+| Test | Test on the business layer |
 
 ### API
 
