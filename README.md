@@ -1,3 +1,10 @@
+<a href="https://github.com/alinares94/net-api-template">
+    <img src="https://img.shields.io/github/last-commit/alinares94/net-api-template">
+</a>
+<a href="https://github.com/alinares94/net-api-template">
+    <img src="https://img.shields.io/github/issues-pr/alinares94/net-api-template">
+</a>
+
 # .Net API Template
 
 API Template for Visual Studio.
